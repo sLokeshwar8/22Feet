@@ -1,0 +1,28 @@
+.Background {
+    background-image: url('../../assets/background.png');
+    min-height: 500px;
+}
+
+.Container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: auto;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .Container {
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: auto;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    .Container {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: auto;
+    }
+}

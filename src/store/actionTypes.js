@@ -1,0 +1,1 @@
+export const GET_CARFT_DATA = 'GET_CARFT_DATA';

@@ -1,0 +1,17 @@
+.Item {
+    width: 170px;
+    height: 140px;
+    background-color: #282d0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    color: #ec9c4e;
+    font-weight: 500;
+}
+
+.Image {
+    width: fit-content;
+}
